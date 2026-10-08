@@ -117,3 +117,9 @@ Este projeto reúne código e estudos de diversos projetos históricos da comuni
 - **[RACE](https://github.com/alekmaul/race)** – Utilizado como base de estudo e referência para a correção e implementação do salvamento em memória não-volátil/bateria (`.ngf`).
 - **[PS2SDK](https://github.com/ps2dev/ps2sdk)** – SDK livre da comunidade para desenvolvimento de software no PlayStation 2.
 - **[gsKit](https://github.com/ps2dev/gsKit)** – Biblioteca gráfica utilizada para o gerenciamento de texturas, renderização de atlas e interface do Launcher.
+
+## Nota sobre o Desenvolvimento
+
+Este projeto foi construído e guiado com amplo auxílio de **Inteligência Artificial (IA)** para a escrita e conversão do código em C/C++, enquanto eu atuei na arquitetura das ideias, integração dos emuladores de referência, testes exaustivos em hardware real/emulador e depuração. 
+
+Como meu foco principal foi fazer o projeto funcionar e trazer esse porte para o PS2 (sem ser um desenvolvedor C experiente), contribuições, revisões de código (*Pull Requests*) e melhorias da comunidade são extremamente bem-vindas!
