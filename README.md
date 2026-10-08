@@ -79,7 +79,7 @@ enabled = 1
 
 ---
 
-## 🕹️ Controles
+## Controles
 
 ### No Menu / Launcher
 
@@ -100,7 +100,7 @@ enabled = 1
 
 ---
 
-## 🧪 Ambientes Testados
+## Ambientes Testados
 
 - **PlayStation 2 (Hardware Real):** Carregamento via USB formatado em **exFAT**.
 - **Rede / Dev:** Testado via **PS2Link / ps2client**.
@@ -108,11 +108,12 @@ enabled = 1
 
 ---
 
-## 🤝 Créditos e Agradecimentos
+## Créditos e Agradecimentos
 
 Este projeto reúne código e estudos de diversos projetos históricos da comunidade de emulação:
 
-- **[NeoPop](https://github.com/)** – Emulador base utilizado como ponto de partida para a implementação.
-- **[MAME](https://www.mamedev.org/)** – Emulação do núcleo e CPU de áudio (Sound Core).
-- **[RACE](https://github.com/)** – Utilizado como base de estudo e referência para a correção e implementação do salvamento em memória não-volátil/bateria (`.ngf`).
+- **[NeoPop](https://github.com/8bitpsp/neopop/)** – Emulador base utilizado como ponto de partida para a implementação.
+- **[MAME](https://github.com/alekmaul/mame4allds2)** – Emulação do núcleo e CPU de áudio (Sound Core).
+- **[RACE](https://github.com/alekmaul/race)** – Utilizado como base de estudo e referência para a correção e implementação do salvamento em memória não-volátil/bateria (`.ngf`).
 - **[PS2SDK](https://github.com/ps2dev/ps2sdk)** – SDK livre da comunidade para desenvolvimento de software no PlayStation 2.
+- **[gsKit](https://github.com/ps2dev/gsKit)** – Biblioteca gráfica utilizada para o gerenciamento de texturas, renderização de atlas e interface do Launcher.
