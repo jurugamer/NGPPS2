@@ -9,7 +9,6 @@
   <img src="screenshots/screen2.png" width="45%" alt="Configurações do Sistema" />
 </div>
 <div align="center">
-  <img src="screenshots/screen3.png" width="45%" alt="Editor de Metadados" />
   <img src="screenshots/screen4.png" width="45%" alt="Menu In-Game (Ação)" />
 </div>
 
