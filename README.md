@@ -46,9 +46,9 @@ raiz_do_pendrive/
     ├── assets/
     │   ├── ... (arquivos de interface, fontes, atlas)
     │   └── translate/
-    │       ├── pt.cfg
-    │       ├── en.cfg
-    │       └── es.cfg
+    │       ├── en_us.lang
+    │       ├── es_es.lang
+    │       └── pt_br.lang
     └── games/
         ├── Jogo1/
         │   ├── rom.ngc (ou .ngp)
@@ -72,35 +72,47 @@ show_subtitle = 1
 show_tag = 1
 enabled = 1
 ```
-## Formatos suportados:
-.ngc - Neo Geo Pocket Color
-.ngp - Neo Geo Pocket Monochrome
 
-## Controles
-No Menu / Launcher
-Botão	Ação
-D-Pad / Analógico	Navegação pelas opções
-✕ (Cross)	Confirmar / Selecionar / Entrar
-△ (Triangle)	Opções do jogo (Editor de Título, Subtítulo, Tag, Deletar Fundo)
-◯ (Circle)	Voltar / Sair
-START	Acessar Configurações Gerais do Sistema
+- **Formatos suportados:**
+  - `.ngc` - Neo Geo Pocket Color
+  - `.ngp` - Neo Geo Pocket Monochrome
 
-## In-Game (Em partida)
-Botão	Ação
-START + SELECT	Abre o Menu de Ação In-Game
-(Dentro do Menu)	Salvar/Carregar States, Salvar Frame como Fundo, Deletar Save .ngf, Sair para o Menu
+---
 
-## Ambientes Testados
-PlayStation 2 (Hardware Real): Carregamento via USB formatado em exFAT.
-Rede / Dev: Testado via PS2Link / ps2client.
-Emulador de PC: Testado no PCSX2 (versões recentes).
+## 🕹️ Controles
 
-## Créditos e Agradecimentos
+### No Menu / Launcher
+
+| Botão | Ação |
+| :--- | :--- |
+| **D-Pad / Analógico** | Navegação pelas opções |
+| **✕ (Cross)** | Confirmar / Selecionar / Entrar |
+| **△ (Triangle)** | Opções do jogo (Editor de Título, Subtítulo, Tag, Deletar Fundo) |
+| **◯ (Circle)** | Voltar / Sair |
+| **START** | Acessar Configurações Gerais do Sistema |
+
+### In-Game (Em partida)
+
+| Botão | Ação |
+| :--- | :--- |
+| **START + SELECT** | Abre o Menu de Ação In-Game |
+| *(Dentro do Menu)* | Salvar/Carregar States, Salvar Frame como Fundo, Deletar Save `.ngf`, Sair para o Menu |
+
+---
+
+## 🧪 Ambientes Testados
+
+- **PlayStation 2 (Hardware Real):** Carregamento via USB formatado em **exFAT**.
+- **Rede / Dev:** Testado via **PS2Link / ps2client**.
+- **Emulador de PC:** Testado no **PCSX2** (versões recentes).
+
+---
+
+## 🤝 Créditos e Agradecimentos
+
 Este projeto reúne código e estudos de diversos projetos históricos da comunidade de emulação:
-NeoPop – Emulador base utilizado como ponto de partida para a implementação.
-MAME – Emulação do núcleo e CPU de áudio (Sound Core).
-RACE – Utilizado como base de estudo e referência para a correção e implementação do salvamento em memória não-volátil/bateria (.ngf).
-PS2SDK – SDK livre da comunidade para desenvolvimento de software no PlayStation 2.
 
-## Licença
-Este projeto é disponibilizado sob a licença GNU General Public License v2.0 (GPL-2.0), respeitando a linhagem de código dos emuladores originais NeoPop e RACE. Consulte o arquivo LICENSE para mais detalhes.
+- **[NeoPop](https://github.com/)** – Emulador base utilizado como ponto de partida para a implementação.
+- **[MAME](https://www.mamedev.org/)** – Emulação do núcleo e CPU de áudio (Sound Core).
+- **[RACE](https://github.com/)** – Utilizado como base de estudo e referência para a correção e implementação do salvamento em memória não-volátil/bateria (`.ngf`).
+- **[PS2SDK](https://github.com/ps2dev/ps2sdk)** – SDK livre da comunidade para desenvolvimento de software no PlayStation 2.
