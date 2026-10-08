@@ -85,7 +85,7 @@ enabled = 1
 
 | Botão | Ação |
 | :--- | :--- |
-| **D-Pad / Analógico** | Navegação pelas opções |
+| **D-Pad** | Navegação pelas opções |
 | **✕ (Cross)** | Confirmar / Selecionar / Entrar |
 | **△ (Triangle)** | Opções do jogo (Editor de Título, Subtítulo, Tag, Deletar Fundo) |
 | **◯ (Circle)** | Voltar / Sair |
